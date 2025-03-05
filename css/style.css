@@ -12,7 +12,7 @@ main{
 }
 
 #sidebar{
-    width: 150px;
+    width: 200px;
     background-color: rgb(0, 0, 0);
 }
 
@@ -30,8 +30,28 @@ main{
 .menù{
     height: 100px;
     width: 150px;
-    background-color: blueviolet;
-    margin: 20px 0px 20px 0px;
+    margin: 30px 0px 20px 0px;
+}
+
+.container-icn{
+    padding: 0px 0px 10px 15px;
+    color: rgba(145, 145, 145, 0.859);
+}
+
+.container-b-left-green{
+    padding: 0px 0px 10px 12px;
+    color: rgba(255, 255, 255, 0.889);
+    border-left: 3px solid greenyellow;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.icn-menù{
+    margin-right: 3px;
+}
+
+.icn{
+    font-size: 22px;
 }
 
 .img-library{
@@ -39,32 +59,69 @@ main{
     height: 25px;
 }
 
+.text-icn{
+    font-size: 15px;
+}
+
 .menù-playlist{
-    height: 200px;
     width: 150px;
-    background-color: blueviolet;
+    padding: 10px 0px 0px 15px;
+}
+
+.title-playlist{
+    color: rgba(255, 255, 255, 0.889);
+    font-size: 15px;
+}
+
+.name-playlist{
+    color: rgba(145, 145, 145, 0.859);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.name-playlist-icn{
+    display: flex;
+    margin-top: 8px;
+}
+
+.icn-playlist{
+    font-size: 35px;
+}
+
+.icn-text-playlist{
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .information{
-    margin-top: 270px;
+    padding-top: 115px;
+    margin-left: 15px;
 }
 
 #installa-app{
     height: 20px;
-    width: 150px;
-    background-color: blueviolet;
-    border: 1px solid white;
-    margin-bottom: 5px;
+    width: 170px;
+    border-bottom: 1px solid rgba(145, 145, 145, 0.859);
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: rgba(145, 145, 145, 0.859);
 }
 
 #account{
     height: 40px;
-    width: 150px;
-    background-color: blueviolet;
+    width: 170px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.889);;
+}
+
+.ml-5{
+    margin-left: 5px;
 }
 
 #content{
-    width: calc(100% - 150px);
+    width: calc(100% - 200px);
     overflow-y: scroll;
 }
 
@@ -102,8 +159,6 @@ main{
 
 .col{
     width: 180px;
-    height: 180px;
-    border: 1px solid white;
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
@@ -121,8 +176,6 @@ main{
 
 .col-2{
     width: 180px;
-    height: 180px;
-    border: 1px solid white;
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
@@ -136,8 +189,6 @@ main{
 
 .col-3{
     width: 180px;
-    height: 180px;
-    border: 1px solid white;
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
@@ -162,6 +213,9 @@ header{
     display: inline-block;
     border: 1px solid white;
     color: white;
+    font-size: small;
+    text-align: center;
+    width: 210px;
     border-radius: 20px;
     margin: 25px 0px 25px 0px;
 }
