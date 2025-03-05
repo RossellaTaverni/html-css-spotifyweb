@@ -126,17 +126,24 @@ main{
 }
 
 .choices{
-    height: 40px;
     width: 100%;
-    background-color: rgb(226, 43, 177);
     text-align: center;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    color: rgba(145, 145, 145, 0.859);
 }
 
 .title{
-    height: 50px;
     width: 100%;
-    background-color: pink;
     margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
 }
 
 .title-account{
@@ -144,10 +151,11 @@ main{
 }
 
 .text-grey{
-    height: 20px;
     width: 100%;
-    background-color: palevioletred;
     margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgba(145, 145, 145, 0.859);
 }
 
 .first-row{
