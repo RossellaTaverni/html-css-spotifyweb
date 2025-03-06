@@ -179,6 +179,15 @@ main{
 .col{
     width: 180px;
     margin-top: 15px;
+    position: relative;
+}
+
+.col-play{
+    position: absolute;
+    bottom: 152px;
+    right: 45px;
+    opacity: 0;
+    font-size: 40px;
 }
 
 .img-col{
@@ -366,4 +375,39 @@ footer{
     height: 2px;
     color: gray;
     margin-top: 5px;
+}
+
+/* HOVER */
+.col:hover .img-col{
+    opacity: 0.3;
+}
+
+.col:hover .col-play{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.button-hover:hover{
+    font-size: 15px;
+    color: yellow;
+    transform: scale(1.1);
+}
+
+.text-hover:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+.text-hover-pink:hover{
+    color: rgb(234, 28, 127);
+    transform: scale(1.1);
+}
+
+.text-hover-play:hover{
+    color: yellow;
+    transform: scale(1.1);
+}
+
+.img-footer-hover:hover{
+    transform: scale(1.1);
 }
