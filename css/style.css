@@ -597,4 +597,13 @@ footer{
         display: none;
     }
 
+    .middle{
+        display: none;
+    }
+
+    .text-hover-play-yellow:hover{
+        color: yellow;
+        transform: scale(1.3);
+    }
+
 }
