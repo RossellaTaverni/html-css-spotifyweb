@@ -243,6 +243,7 @@ header{
     background-color: rgb(8, 11, 18,255);
     top: 0;
     text-align: end;
+    z-index: 1;
 }
 
 .button{
@@ -410,4 +411,139 @@ footer{
 
 .img-footer-hover:hover{
     transform: scale(1.1);
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1279px) and (min-width: 1000px) {
+    .information{
+        padding-top: 235px;
+    }
+
+    .col{
+        width: 240px;
+    }
+
+    .col-2{
+        width: 240px;
+    }
+
+    .col-3{
+        width: 240px;
+    }
+
+    .choices{
+        font-size: small;
+        gap: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 965px){
+    #content{
+        width: auto;
+    }
+    
+    .information{
+        padding-top: 235px;
+        padding-right: 10px;
+    }
+
+    .col{
+        width: 240px;
+    }
+
+    .col-2{
+        width: 240px;
+    }
+
+    .col-3{
+        width: 240px;
+    }
+
+    .choices{
+        font-size: small;
+        gap: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 964px) {
+    .information{
+        margin-top: 140px;
+        padding-right: 10px;
+    }
+
+    .col{
+        width: 220px;
+    }
+
+    .col-2{
+        width: 220px;
+    }
+
+    .col-3{
+        width: 220px;
+    }
+
+    .choices{
+        font-size: small;
+        gap: 45px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    header{
+        text-align: center;
+    }
+    
+    .information{
+        margin-top: 140px;
+        padding-right: 10px;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .first-row{
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .second-row{
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .third-row{
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .col{
+        width: 250px;
+    }
+
+    .col-2{
+        width: 250px;
+    }
+
+    .col-3{
+        width: 250px;
+    }
+
+    .choices{
+        font-size: small;
+        gap: 45px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .col-footer-end{
+        justify-content: center;
+    }
+
+
 }
