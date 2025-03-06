@@ -584,14 +584,15 @@ footer{
 }
 
 @media screen and (max-width: 580px) {
-    .title-subtitle-footer{
-        display: none;
+    .col-footer-end{
+        display: none;     
     }
 
-    .col-footer-start{
-        justify-content: center;
+    .col-footer{
+        width: calc(100% / 2);
+        margin: 5px 15px 5px 0px;;
     }
-    
+
     .icn-footer{
         display: none;
     }
